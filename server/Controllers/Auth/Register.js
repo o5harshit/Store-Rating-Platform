@@ -38,9 +38,9 @@ export const register = async (req, res) => {
    
     res.cookie("accessToken", accessToken, {
       httpOnly: true,
-      secure: false,
-      sameSite: "Strict",
-       maxAge: 7 * 24 * 60 * 60 * 1000  
+      secure: true,
+      sameSite: "none",
+       maxAge: 7 * 24 * 60 * 60 * 1000, 
     });
 
     return res.status(201).json({
