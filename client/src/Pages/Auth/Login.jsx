@@ -3,9 +3,9 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 
-import AuthCard from "@/components/auth/AuthCard";
-import AuthLayout from "@/components/auth/AuthLayout";
-import PasswordInput from "@/components/auth/PasswordInput";
+import AuthCard from "@/components/Auth/AuthCard";
+import AuthLayout from "@/components/Auth/AuthLayout";
+import PasswordInput from "@/components/Auth/PasswordInput";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
